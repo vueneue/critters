@@ -1,6 +1,6 @@
 {
   "name": "@vueneue/critters",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "VueNeue critical CSS",
   "main": "src/index.js",
   "author": "Simon Babay <simon@babay.fr>",

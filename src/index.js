@@ -98,8 +98,12 @@ module.exports = class Critters {
     }
 
     // go through all the style tags in the document and reduce them to only critical CSS
-    const styles = document.querySelectorAll("style");
-    await Promise.all(styles.map(style => this.processStyle(style, document)));
+    if (this.options.style !== false) {
+      const styles = document.querySelectorAll("style");
+      await Promise.all(
+        styles.map(style => this.processStyle(style, document))
+      );
+    }
 
     // serialize the document back to HTML and we're done
     return serializeDocument(document);
