@@ -1,0 +1,16 @@
+{
+  "name": "@vueneue/critters",
+  "version": "0.1.0",
+  "description": "VueNeue critical CSS",
+  "main": "src/index.js",
+  "author": "Simon Babay <simon@babay.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^2.2.3",
+    "nwmatcher": "^1.4.4",
+    "parse5": "~4.0.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^7.0.0"
+  }
+}
